@@ -24,7 +24,7 @@
 
     var button = null;
     var dice = ["../Asset/images/dice1.png", "../Asset/images/dice2.png", "../Asset/images/dice3.png", "../Asset/images/dice4.png", "../Asset/images/dice5.png", "../Asset/images/dice6.png"]
-
+    var dicen = null;
     function init() {
         console.log("Initialization");
         // enable mouseover effects for all buttons
