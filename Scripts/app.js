@@ -51,8 +51,8 @@
     // this is where all the magic happens
     function main() {
         button = new createjs.Bitmap('../Asset/images/button.jpg');
-        button.regX = button.getBounds().width * 0.5;
-        button.regY = button.getBounds().height * 0.5;
+        button.regX = 250 * 0.5;
+        button.regY = 250 * 0.5;
         button.scaleX = 0.5;
         button.scaleY = 0.5;
         button.x = screenWidth * 0.5;
@@ -60,12 +60,12 @@
         stage.addChild(button);
         
         dicen = new createjs.Bitmap('../Asset/images/dice1.png');
-        dicen.regX = button.getBounds().width * 0.5;
-        dicen.regY = button.getBounds().height * 0.5;
+        dicen.regX = 250 * 0.5;
+        dicen.regY = 250 * 0.5;
         dicen.scaleX = 0.5;
         dicen.scaleY = 0.5;
-        dicen.x = screenWidth * 0.5;
-        dicen.y = 240;
+        dicen.x = 250 * 0.5;
+        dicen.y = 125;
         stage.addChild(button);
 
         helloLabel = new createjs.Text("Click to Roll!", "40px Consolas", "#000000");
@@ -76,9 +76,9 @@
         stage.addChild(helloLabel);
 
         button.on("click", function() {
-            dicen = new createjs.Bitmap(dice[rollDice()]);
-            dicen.regX = button.getBounds().width * 0.5;
-            dicen.regY = button.getBounds().height * 0.5;
+            dicen = new createjs.Bitmap(dice[rollDice]);
+            dicen.regX = 250 * 0.5;
+            dicen.regY = 250 * 0.5;
             dicen.scaleX = 0.5;
             dicen.scaleY = 0.5;
             dicen.x = screenWidth * 0.5;
