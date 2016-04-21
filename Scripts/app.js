@@ -16,8 +16,8 @@
       
       
       button.addEventListener("click", function buttonClick(){
-            dice1.innerHTML = ("<img src=") + dice[rollDice] + (" title='dice'/>");
-            dice2.innerHTML = ("<img src=") + dice[rollDice] + (" title='dice'/>");
+            dice1.innerHTML = (("<img src=") + dice[rollDice] + (" title='dice'/>"));
+            dice2.innerHTML = (("<img src=") + dice[rollDice] + (" title='dice'/>"));
             
    
       });
