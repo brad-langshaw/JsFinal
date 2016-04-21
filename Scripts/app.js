@@ -41,13 +41,8 @@
 
     // runs every frame
     function animationLoop() {
-
-        helloLabel.rotation += 5;
-        button.rotation += 5;
-        helloLabel.x += helloLabelMove;
-        if ((helloLabel.x >= screenWidth) || (helloLabel.x <= 0)) {
-            helloLabelMove *= -1;
-        }
+        
+        
 
         // refresh the stage object
         stage.update();
