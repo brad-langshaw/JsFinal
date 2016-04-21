@@ -28,7 +28,7 @@
     
     
     function rollDice(){
-              var rolledDice = math.floor((math.random() * 6) +1);
+              var rolledDice = Math.floor((Math.random() * 6) +1);
              };
              
          
