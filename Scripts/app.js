@@ -20,7 +20,7 @@
             dice2.innerHTML(dice[rollDice]);
             
    
-      });
+      };
     
     
     function rollDice(){
