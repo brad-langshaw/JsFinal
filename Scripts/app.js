@@ -15,7 +15,7 @@
       var number1 = document.getElementById("number1");
       var number2 = document.getElementById("number2");
       
-      button.addEventListener("click", function buttonClick(){
+      button.addEventListener("click", function(){
             rollDice();
             number1.innerHTML = [rolledDice]
             dice1.innerHTML = (("<img src='../Asset/images/dice") + [rolledDice] + (".png' title='dice'/>"));
@@ -29,7 +29,7 @@
     
     function rollDice(){
               var rolledDice = Math.floor((Math.random() * 6) +1);
-             };
+             }
              
          
     
