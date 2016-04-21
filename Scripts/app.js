@@ -6,7 +6,7 @@
     "use strict";
 
     var button = null;
-    var dice = ["../Asset/images/dice1.png", "../Asset/images/dice2.png", "../Asset/images/dice3.png", "../Asset/images/dice4.png", "../Asset/images/dice5.png", "../Asset/images/dice6.png"];
+    var dice = ["0","../Asset/images/dice1.png", "../Asset/images/dice2.png", "../Asset/images/dice3.png", "../Asset/images/dice4.png", "../Asset/images/dice5.png", "../Asset/images/dice6.png"];
     //CreateJS Section ++++++++++++++++++++++++++++++++++++
 
     //global variables
@@ -16,8 +16,8 @@
       
       
       button.addEventListener("click", function buttonClick(){
-            dice1.innerHTML = (("<img src=") + dice[rollDice] + (" title='dice'/>"));
-            dice2.innerHTML = (("<img src=") + dice[rollDice] + (" title='dice'/>"));
+            dice1.innerHTML = (("<img src=") + (dice[rollDice]) + (" title='dice'/>"));
+            dice2.innerHTML = (("<img src=") + (dice[rollDice]) + (" title='dice'/>"));
             
    
       });
