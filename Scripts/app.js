@@ -16,17 +16,17 @@
       var button = document.getElementById("button")
       
       
-      button.on("click"){
+      button.on("click", function(){
             dice1.innerHTML(dice[rollDice])
             dice2.innerHTML(dice[rollDice])
             
    
-      }
+      });
     
     
     function rollDice(){
                 var randomNumber = math.floor((math.random() * 6) +1);
-             }
+             };
              
          
     
