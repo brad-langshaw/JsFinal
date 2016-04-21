@@ -13,8 +13,8 @@
 
     // reference to canvas element
     var canvas = document.getElementById("canvas");
-    canvas.setAttribute("width", screenWidth);
-    canvas.setAttribute("height", "480");
+    canvas.setAttribute("width", "250");
+    canvas.setAttribute("height", "250");
 
     // create a stage container object
     var stage = new createjs.Stage(canvas);
