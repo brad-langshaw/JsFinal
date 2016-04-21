@@ -15,7 +15,7 @@
       var button = document.getElementById("button");
       
       
-      button.on("click", function(){
+      function ButtonClick(){
             dice1.innerHTML(dice[rollDice]);
             dice2.innerHTML(dice[rollDice]);
             
