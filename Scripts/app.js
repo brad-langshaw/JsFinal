@@ -18,10 +18,10 @@
       button.addEventListener("click", function(){
             var roll1 = Math.floor((Math.random() * 6) +1);
             number1.innerHTML = [roll1];
-            dice1.innerHTML = (("<img src='../Asset/images/dice") + [roll1] + (".png' title='dice'/>"));
+            dice1.innerHTML = (("<img src='Asset/images/dice") + [roll1] + (".png' title='dice'/>"));
             var roll2 = Math.floor((Math.random() * 6) +1);
             number2.innerHTML = [roll2];
-            dice2.innerHTML = (("<img src='../Asset/images/dice") + [roll2] + (".png' title='dice'/>"));
+            dice2.innerHTML = (("<img src='Asset/images/dice") + [roll2] + (".png' title='dice'/>"));
             
    
       });
