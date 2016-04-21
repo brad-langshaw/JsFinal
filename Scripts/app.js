@@ -16,20 +16,17 @@
       var number2 = document.getElementById("number2");
       
       button.addEventListener("click", function(){
-            rollDice();
-            number1.innerHTML = [rolledDice]
-            dice1.innerHTML = (("<img src='../Asset/images/dice") + [rolledDice] + (".png' title='dice'/>"));
-            rollDice();
-            number2.innerHTML = [rolledDice]
-            dice2.innerHTML = (("<img src='../Asset/images/dice") + [rolledDice] + (".png' title='dice'/>"));
+            var roll1 = Math.floor((Math.random() * 6) +1);
+            number1.innerHTML = [roll1];
+            dice1.innerHTML = (("<img src='../Asset/images/dice") + [roll1] + (".png' title='dice'/>"));
+            var roll2 = Math.floor((Math.random() * 6) +1);
+            number2.innerHTML = [roll2];
+            dice2.innerHTML = (("<img src='../Asset/images/dice") + [roll2] + (".png' title='dice'/>"));
             
    
       });
     
-    
-    function rollDice(){
-              var rolledDice = Math.floor((Math.random() * 6) +1);
-             }
+  
              
          
     
