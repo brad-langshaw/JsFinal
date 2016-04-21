@@ -15,12 +15,12 @@
       var button = document.getElementById("button");
       
       
-      function ButtonClick(){
+      button.addEventListener("click", function buttonClick(){
             dice1.innerHTML(dice[rollDice]);
             dice2.innerHTML(dice[rollDice]);
             
    
-      };
+      });
     
     
     function rollDice(){
