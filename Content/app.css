@@ -4,3 +4,18 @@
     border: 1px dashed black;
     width: 250px;
 }
+
+#dice1{
+    position: relative;
+    top: 100%;
+}
+
+#dice2{
+    position: relative;
+    top: 100%;
+}
+
+p{
+    position: relative;
+    top: 200px;
+}
