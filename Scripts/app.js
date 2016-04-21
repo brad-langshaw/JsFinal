@@ -16,10 +16,10 @@
       var number2 = document.getElementById("number2");
       
       button.addEventListener("click", function buttonClick(){
-            rollDice;
+            rollDice();
             number1.innerHTML = [rolledDice]
             dice1.innerHTML = (("<img src='../Asset/images/dice") + [rolledDice] + (".png' title='dice'/>"));
-            rollDice;
+            rollDice();
             number2.innerHTML = [rolledDice]
             dice2.innerHTML = (("<img src='../Asset/images/dice") + [rolledDice] + (".png' title='dice'/>"));
             
